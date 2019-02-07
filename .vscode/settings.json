@@ -1,0 +1,6 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "editor.autoIndent": true,
+  "editor.formatOnPaste": true,
+}
