@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .Logo {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous';
+  font-size: 1.5em;
+  color: #2b2b2b;
+}
+
+.Container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 1em;
+  height: 3em;
+  background-image: linear-gradient(#cecece, #cecece55, transparent)
 }
