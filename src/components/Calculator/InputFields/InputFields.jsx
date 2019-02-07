@@ -12,6 +12,7 @@ export default class InputFields extends Component {
     origin: taxes[0].origin,
     destiny: taxes[0].destiny,
     plan: plans[0].name,
+    time: 0,
   }
 
   submit = () => {
@@ -72,6 +73,17 @@ export default class InputFields extends Component {
           <TextField
             className={styles.Input}
             required
+            type="number"
+            label="Tempo em minutos"
+            value={this.state.time}
+            onChange={this.handleChange("time")}
+            variant="outlined"
+            margin="dense"
+          />
+
+          <TextField
+            className={styles.Input}
+            required
             select
             label="Plano"
             value={this.state.plan}
@@ -90,7 +102,11 @@ export default class InputFields extends Component {
           </TextField>
         </div>
 
-        <Button variant="outlined" className={styles.Button} onClick={this.submit}>
+        <Button
+          variant="outlined"
+          className={styles.Button}
+          onClick={this.submit}
+        >
           Calcular
         </Button>
       </form>
