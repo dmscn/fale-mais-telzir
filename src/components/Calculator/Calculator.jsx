@@ -1,9 +1,14 @@
+// @flow
 import React, { Component } from 'react'
 import styles from './Calculator.module.css'
 import InputFields from './InputFields';
 import Result from './Result';
 
-export default class Calculator extends Component {
+export type State = {
+  result?: any
+}
+
+export default class Calculator extends Component<null, State> {
   state = {
     result: undefined,
   }

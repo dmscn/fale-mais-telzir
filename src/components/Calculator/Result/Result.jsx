@@ -1,11 +1,16 @@
+// @flow
 import React, { Component } from 'react'
 import classNames from 'classnames';
 import Card from "@material-ui/core/Card";
 import Icon from "@material-ui/core/Icon";
 
-import styles from './Result.module.css'
+import styles from './Result.module.css';
 
-export default class Result extends Component {
+export type Props = {
+  result: any
+}
+
+export default class Result extends Component<Props> {
   formatCurrency = value => {
     if(Number.isInteger(value)) return value.toString();
     return value.toFixed(2).toString().replace('.', ',');

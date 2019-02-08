@@ -1,10 +1,11 @@
+//  @flow
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
-const styles = theme => ({
+const styles = (theme: any): any => ({
   root: {
     marginBottom: ".5em"
   },
@@ -25,7 +26,7 @@ const styles = theme => ({
   notchedOutline: {}
 });
 
-function UITextField(props) {
+function UITextField(props: any) {
   const { classes } = props;
   return (
     <TextField

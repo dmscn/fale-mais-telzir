@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> renders without crashing 1`] = `
+exports[`<Footer /> should render 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <Footer />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -16,13 +16,13 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Header />,
-        <Calculator />,
-        <Footer />,
+        <PromotionBox />,
+        <BottomNav />,
       ],
+      "className": "Container",
     },
     "ref": null,
     "rendered": Array [
@@ -44,29 +44,20 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
     ],
-    "type": Symbol(react.fragment),
+    "type": "footer",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Header />,
-          <Calculator />,
-          <Footer />,
+          <PromotionBox />,
+          <BottomNav />,
         ],
+        "className": "Container",
       },
       "ref": null,
       "rendered": Array [
@@ -88,17 +79,8 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
-      "type": Symbol(react.fragment),
+      "type": "footer",
     },
   ],
   Symbol(enzyme.__options__): Object {

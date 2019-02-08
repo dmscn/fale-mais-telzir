@@ -1,3 +1,4 @@
+// @flow
 import React, { Component } from 'react'
 import Button from '@material-ui/core/Button';
 
@@ -8,7 +9,14 @@ import styles from './InputFields.module.css';
 
 import UITextField from '../../UI/TextField';
 
-export default class InputFields extends Component {
+export type State = {
+  origin: number,
+  destiny: number,
+  plan: string,
+  time: number
+}
+
+export default class InputFields extends Component<null, State> {
   state = {
     origin: taxes[0].origin,
     destiny: taxes[0].destiny,

@@ -1,2 +1,2 @@
-export { default } from './BottonNav';
+export { default } from './BottomNav';
 export * from './BottomNav';
