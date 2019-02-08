@@ -1,15 +1,48 @@
 import React, { Component } from 'react'
 import styles from './Calculator.module.css'
 import InputFields from './InputFields';
+import Result from './Result';
 
 export default class Calculator extends Component {
-  calculate = ({ origin, destiny, plan, time}) => {
-    console.log(`${origin}, ${destiny}, ${plan}, ${time}`);
+  state = {
+    result: undefined,
   }
+
+  calculate = ({ tax, plan, time}) => {
+    time = parseInt(time);
+
+    let result = {};
+
+    if(plan.descountMin >= time) {
+      result.commonPrice = time * tax.pricePerMinute;
+      result.promotionPrice = 0;
+      this.setState({result});
+    } else {
+      result.commonPrice = time * tax.pricePerMinute;
+      result.promotionPrice = (time - plan.descountMin) * plan.taxIncrease; 
+      this.setState({
+        result
+      });
+    }
+  }
+  
   render() {
+    const { result } = this.state;
+
+    if(!result) {
+      return (
+        <main className={styles.Container}>
+            <header className={styles.Header}>
+              <h2>Calcule o custo da sua ligação com nossos planos FaleMais</h2>
+            </header>
+            <InputFields onSubmit={this.calculate}/>
+        </main>
+      );
+    }
+
     return (
       <main className={styles.Container}>
-          <InputFields onSubmit={this.calculate}/>
+        <Result result={result} />
       </main>
     )
   }

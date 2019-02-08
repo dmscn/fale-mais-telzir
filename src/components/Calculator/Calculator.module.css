@@ -1,4 +1,8 @@
-.Container {
-  height: calc(100vh - 6.5em); /* minus header height -- FIXME: must not be a static value */
+.Container { 
   padding: 1em;
+  text-align: center;
+}
+
+.Header {
+  margin-bottom: 3em;
 }

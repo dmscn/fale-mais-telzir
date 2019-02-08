@@ -13,12 +13,32 @@ export default class InputFields extends Component {
     origin: taxes[0].origin,
     destiny: taxes[0].destiny,
     plan: plans[0].name,
-    time: undefined,
+    time: 0,
   }
 
   submit = () => {
-    console.log("Submitting: ", this.state);
-    this.props.onSubmit(this.state);
+    const { origin, destiny, time } = this.state;
+
+    if(time <= 0) {
+      this.setState({
+        error: 'O tempo deve ser maior que 0 minutos.'
+      })
+    } else {
+      const result = {
+        plan: plans.find(plan => plan.name === this.state.plan),
+        tax: taxes.find(tax => {
+          if(tax.origin === origin && tax.destiny === destiny) return tax;
+          return false;
+        }),
+        time,
+      }
+      this.props.onSubmit(result);
+    }
+  }
+
+  handleKeyPress = event => {
+    var code = event.keyCode || event.which;
+    if (code === 13) this.submit();
   }
 
   handleChange = name => event => {
@@ -33,7 +53,7 @@ export default class InputFields extends Component {
     const destinations = Array.from(new Set(taxes.map(tax => tax.destiny)));
 
     return (
-      <form className={styles.Container} noValidate autoComplete="off">
+      <form className={styles.Container} noValidate autoComplete="off" onKeyPress={this.handleKeyPress}>
         <div className={styles.InputBox}>
           <UITextField
             className={styles.Input}
@@ -72,6 +92,8 @@ export default class InputFields extends Component {
           </UITextField>
 
           <UITextField
+            error={this.state.error}
+            helperText={this.state.error}
             className={styles.Input}
             required
             type="number"

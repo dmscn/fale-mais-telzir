@@ -1,0 +1,23 @@
+.Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.Card {
+  width: 25vw;
+  height: 25vw;
+  padding: .5em;
+}
+
+.FaleMaisCard {
+  width: 30vw;
+  height: 30vw;
+  font-size: 1.2em;
+}
+
+.Price {
+  font-size: 2em;
+  font-weight: 500;
+}
