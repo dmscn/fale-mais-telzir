@@ -1,0 +1,1146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFields /> should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputFields />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "autoComplete": "off",
+      "children": Array [
+        <div
+          className="InputBox"
+        >
+          <WithStyles(UITextField)
+            SelectProps={
+              Object {
+                "native": true,
+              }
+            }
+            className="Input"
+            label="DDD Origem"
+            onChange={[Function]}
+            required={true}
+            select={true}
+            value="011"
+          >
+            <option
+              value="011"
+            >
+              011
+            </option>
+            <option
+              value="016"
+            >
+              016
+            </option>
+            <option
+              value="017"
+            >
+              017
+            </option>
+            <option
+              value="018"
+            >
+              018
+            </option>
+          </WithStyles(UITextField)>
+          <WithStyles(UITextField)
+            SelectProps={
+              Object {
+                "native": true,
+              }
+            }
+            className="Input"
+            label="DDD Destino"
+            onChange={[Function]}
+            required={true}
+            select={true}
+            value="016"
+          >
+            <option
+              value="016"
+            >
+              016
+            </option>
+            <option
+              value="011"
+            >
+              011
+            </option>
+            <option
+              value="017"
+            >
+              017
+            </option>
+            <option
+              value="018"
+            >
+              018
+            </option>
+          </WithStyles(UITextField)>
+          <WithStyles(UITextField)
+            InputLabelProps={
+              Object {
+                "shrink": true,
+              }
+            }
+            className="Input"
+            label="Tempo"
+            onChange={[Function]}
+            placeholder="Tempo de ligação em minutos"
+            required={true}
+            type="number"
+            value={0}
+          />
+          <WithStyles(UITextField)
+            SelectProps={
+              Object {
+                "native": true,
+              }
+            }
+            className="Input"
+            label="Plano"
+            onChange={[Function]}
+            required={true}
+            select={true}
+            value="FaleMais 30"
+          >
+            <option
+              value="FaleMais 30"
+            >
+              FaleMais 30
+            </option>
+            <option
+              value="FaleMais 60"
+            >
+              FaleMais 60
+            </option>
+            <option
+              value="FaleMais 120"
+            >
+              FaleMais 120
+            </option>
+          </WithStyles(UITextField)>
+        </div>,
+        <WithStyles(Button)
+          className="Button"
+          onClick={[Function]}
+          variant="outlined"
+        >
+          Calcular
+        </WithStyles(Button)>,
+      ],
+      "className": "Container",
+      "noValidate": true,
+      "onKeyPress": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="DDD Origem"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="011"
+            >
+              <option
+                value="011"
+              >
+                011
+              </option>
+              <option
+                value="016"
+              >
+                016
+              </option>
+              <option
+                value="017"
+              >
+                017
+              </option>
+              <option
+                value="018"
+              >
+                018
+              </option>
+            </WithStyles(UITextField)>,
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="DDD Destino"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="016"
+            >
+              <option
+                value="016"
+              >
+                016
+              </option>
+              <option
+                value="011"
+              >
+                011
+              </option>
+              <option
+                value="017"
+              >
+                017
+              </option>
+              <option
+                value="018"
+              >
+                018
+              </option>
+            </WithStyles(UITextField)>,
+            <WithStyles(UITextField)
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              className="Input"
+              label="Tempo"
+              onChange={[Function]}
+              placeholder="Tempo de ligação em minutos"
+              required={true}
+              type="number"
+              value={0}
+            />,
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="Plano"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="FaleMais 30"
+            >
+              <option
+                value="FaleMais 30"
+              >
+                FaleMais 30
+              </option>
+              <option
+                value="FaleMais 60"
+              >
+                FaleMais 60
+              </option>
+              <option
+                value="FaleMais 120"
+              >
+                FaleMais 120
+              </option>
+            </WithStyles(UITextField)>,
+          ],
+          "className": "InputBox",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "SelectProps": Object {
+                "native": true,
+              },
+              "children": Array [
+                <option
+                  value="011"
+                >
+                  011
+                </option>,
+                <option
+                  value="016"
+                >
+                  016
+                </option>,
+                <option
+                  value="017"
+                >
+                  017
+                </option>,
+                <option
+                  value="018"
+                >
+                  018
+                </option>,
+              ],
+              "className": "Input",
+              "label": "DDD Origem",
+              "onChange": [Function],
+              "required": true,
+              "select": true,
+              "value": "011",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "011",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "011",
+                  "value": "011",
+                },
+                "ref": null,
+                "rendered": "011",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "016",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "016",
+                  "value": "016",
+                },
+                "ref": null,
+                "rendered": "016",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "017",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "017",
+                  "value": "017",
+                },
+                "ref": null,
+                "rendered": "017",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "018",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "018",
+                  "value": "018",
+                },
+                "ref": null,
+                "rendered": "018",
+                "type": "option",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "SelectProps": Object {
+                "native": true,
+              },
+              "children": Array [
+                <option
+                  value="016"
+                >
+                  016
+                </option>,
+                <option
+                  value="011"
+                >
+                  011
+                </option>,
+                <option
+                  value="017"
+                >
+                  017
+                </option>,
+                <option
+                  value="018"
+                >
+                  018
+                </option>,
+              ],
+              "className": "Input",
+              "label": "DDD Destino",
+              "onChange": [Function],
+              "required": true,
+              "select": true,
+              "value": "016",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "016",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "016",
+                  "value": "016",
+                },
+                "ref": null,
+                "rendered": "016",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "011",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "011",
+                  "value": "011",
+                },
+                "ref": null,
+                "rendered": "011",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "017",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "017",
+                  "value": "017",
+                },
+                "ref": null,
+                "rendered": "017",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "018",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "018",
+                  "value": "018",
+                },
+                "ref": null,
+                "rendered": "018",
+                "type": "option",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "InputLabelProps": Object {
+                "shrink": true,
+              },
+              "className": "Input",
+              "error": undefined,
+              "helperText": undefined,
+              "label": "Tempo",
+              "onChange": [Function],
+              "placeholder": "Tempo de ligação em minutos",
+              "required": true,
+              "type": "number",
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "SelectProps": Object {
+                "native": true,
+              },
+              "children": Array [
+                <option
+                  value="FaleMais 30"
+                >
+                  FaleMais 30
+                </option>,
+                <option
+                  value="FaleMais 60"
+                >
+                  FaleMais 60
+                </option>,
+                <option
+                  value="FaleMais 120"
+                >
+                  FaleMais 120
+                </option>,
+              ],
+              "className": "Input",
+              "label": "Plano",
+              "onChange": [Function],
+              "required": true,
+              "select": true,
+              "value": "FaleMais 30",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "FaleMais 30",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "FaleMais 30",
+                  "value": "FaleMais 30",
+                },
+                "ref": null,
+                "rendered": "FaleMais 30",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "FaleMais 60",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "FaleMais 60",
+                  "value": "FaleMais 60",
+                },
+                "ref": null,
+                "rendered": "FaleMais 60",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "FaleMais 120",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "FaleMais 120",
+                  "value": "FaleMais 120",
+                },
+                "ref": null,
+                "rendered": "FaleMais 120",
+                "type": "option",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Calcular",
+          "className": "Button",
+          "onClick": [Function],
+          "variant": "outlined",
+        },
+        "ref": null,
+        "rendered": "Calcular",
+        "type": [Function],
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "autoComplete": "off",
+        "children": Array [
+          <div
+            className="InputBox"
+          >
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="DDD Origem"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="011"
+            >
+              <option
+                value="011"
+              >
+                011
+              </option>
+              <option
+                value="016"
+              >
+                016
+              </option>
+              <option
+                value="017"
+              >
+                017
+              </option>
+              <option
+                value="018"
+              >
+                018
+              </option>
+            </WithStyles(UITextField)>
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="DDD Destino"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="016"
+            >
+              <option
+                value="016"
+              >
+                016
+              </option>
+              <option
+                value="011"
+              >
+                011
+              </option>
+              <option
+                value="017"
+              >
+                017
+              </option>
+              <option
+                value="018"
+              >
+                018
+              </option>
+            </WithStyles(UITextField)>
+            <WithStyles(UITextField)
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              className="Input"
+              label="Tempo"
+              onChange={[Function]}
+              placeholder="Tempo de ligação em minutos"
+              required={true}
+              type="number"
+              value={0}
+            />
+            <WithStyles(UITextField)
+              SelectProps={
+                Object {
+                  "native": true,
+                }
+              }
+              className="Input"
+              label="Plano"
+              onChange={[Function]}
+              required={true}
+              select={true}
+              value="FaleMais 30"
+            >
+              <option
+                value="FaleMais 30"
+              >
+                FaleMais 30
+              </option>
+              <option
+                value="FaleMais 60"
+              >
+                FaleMais 60
+              </option>
+              <option
+                value="FaleMais 120"
+              >
+                FaleMais 120
+              </option>
+            </WithStyles(UITextField)>
+          </div>,
+          <WithStyles(Button)
+            className="Button"
+            onClick={[Function]}
+            variant="outlined"
+          >
+            Calcular
+          </WithStyles(Button)>,
+        ],
+        "className": "Container",
+        "noValidate": true,
+        "onKeyPress": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(UITextField)
+                SelectProps={
+                  Object {
+                    "native": true,
+                  }
+                }
+                className="Input"
+                label="DDD Origem"
+                onChange={[Function]}
+                required={true}
+                select={true}
+                value="011"
+              >
+                <option
+                  value="011"
+                >
+                  011
+                </option>
+                <option
+                  value="016"
+                >
+                  016
+                </option>
+                <option
+                  value="017"
+                >
+                  017
+                </option>
+                <option
+                  value="018"
+                >
+                  018
+                </option>
+              </WithStyles(UITextField)>,
+              <WithStyles(UITextField)
+                SelectProps={
+                  Object {
+                    "native": true,
+                  }
+                }
+                className="Input"
+                label="DDD Destino"
+                onChange={[Function]}
+                required={true}
+                select={true}
+                value="016"
+              >
+                <option
+                  value="016"
+                >
+                  016
+                </option>
+                <option
+                  value="011"
+                >
+                  011
+                </option>
+                <option
+                  value="017"
+                >
+                  017
+                </option>
+                <option
+                  value="018"
+                >
+                  018
+                </option>
+              </WithStyles(UITextField)>,
+              <WithStyles(UITextField)
+                InputLabelProps={
+                  Object {
+                    "shrink": true,
+                  }
+                }
+                className="Input"
+                label="Tempo"
+                onChange={[Function]}
+                placeholder="Tempo de ligação em minutos"
+                required={true}
+                type="number"
+                value={0}
+              />,
+              <WithStyles(UITextField)
+                SelectProps={
+                  Object {
+                    "native": true,
+                  }
+                }
+                className="Input"
+                label="Plano"
+                onChange={[Function]}
+                required={true}
+                select={true}
+                value="FaleMais 30"
+              >
+                <option
+                  value="FaleMais 30"
+                >
+                  FaleMais 30
+                </option>
+                <option
+                  value="FaleMais 60"
+                >
+                  FaleMais 60
+                </option>
+                <option
+                  value="FaleMais 120"
+                >
+                  FaleMais 120
+                </option>
+              </WithStyles(UITextField)>,
+            ],
+            "className": "InputBox",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "SelectProps": Object {
+                  "native": true,
+                },
+                "children": Array [
+                  <option
+                    value="011"
+                  >
+                    011
+                  </option>,
+                  <option
+                    value="016"
+                  >
+                    016
+                  </option>,
+                  <option
+                    value="017"
+                  >
+                    017
+                  </option>,
+                  <option
+                    value="018"
+                  >
+                    018
+                  </option>,
+                ],
+                "className": "Input",
+                "label": "DDD Origem",
+                "onChange": [Function],
+                "required": true,
+                "select": true,
+                "value": "011",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "011",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "011",
+                    "value": "011",
+                  },
+                  "ref": null,
+                  "rendered": "011",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "016",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "016",
+                    "value": "016",
+                  },
+                  "ref": null,
+                  "rendered": "016",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "017",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "017",
+                    "value": "017",
+                  },
+                  "ref": null,
+                  "rendered": "017",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "018",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "018",
+                    "value": "018",
+                  },
+                  "ref": null,
+                  "rendered": "018",
+                  "type": "option",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "SelectProps": Object {
+                  "native": true,
+                },
+                "children": Array [
+                  <option
+                    value="016"
+                  >
+                    016
+                  </option>,
+                  <option
+                    value="011"
+                  >
+                    011
+                  </option>,
+                  <option
+                    value="017"
+                  >
+                    017
+                  </option>,
+                  <option
+                    value="018"
+                  >
+                    018
+                  </option>,
+                ],
+                "className": "Input",
+                "label": "DDD Destino",
+                "onChange": [Function],
+                "required": true,
+                "select": true,
+                "value": "016",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "016",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "016",
+                    "value": "016",
+                  },
+                  "ref": null,
+                  "rendered": "016",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "011",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "011",
+                    "value": "011",
+                  },
+                  "ref": null,
+                  "rendered": "011",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "017",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "017",
+                    "value": "017",
+                  },
+                  "ref": null,
+                  "rendered": "017",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "018",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "018",
+                    "value": "018",
+                  },
+                  "ref": null,
+                  "rendered": "018",
+                  "type": "option",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "InputLabelProps": Object {
+                  "shrink": true,
+                },
+                "className": "Input",
+                "error": undefined,
+                "helperText": undefined,
+                "label": "Tempo",
+                "onChange": [Function],
+                "placeholder": "Tempo de ligação em minutos",
+                "required": true,
+                "type": "number",
+                "value": 0,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "SelectProps": Object {
+                  "native": true,
+                },
+                "children": Array [
+                  <option
+                    value="FaleMais 30"
+                  >
+                    FaleMais 30
+                  </option>,
+                  <option
+                    value="FaleMais 60"
+                  >
+                    FaleMais 60
+                  </option>,
+                  <option
+                    value="FaleMais 120"
+                  >
+                    FaleMais 120
+                  </option>,
+                ],
+                "className": "Input",
+                "label": "Plano",
+                "onChange": [Function],
+                "required": true,
+                "select": true,
+                "value": "FaleMais 30",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "FaleMais 30",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "FaleMais 30",
+                    "value": "FaleMais 30",
+                  },
+                  "ref": null,
+                  "rendered": "FaleMais 30",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "FaleMais 60",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "FaleMais 60",
+                    "value": "FaleMais 60",
+                  },
+                  "ref": null,
+                  "rendered": "FaleMais 60",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "FaleMais 120",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "FaleMais 120",
+                    "value": "FaleMais 120",
+                  },
+                  "ref": null,
+                  "rendered": "FaleMais 120",
+                  "type": "option",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Calcular",
+            "className": "Button",
+            "onClick": [Function],
+            "variant": "outlined",
+          },
+          "ref": null,
+          "rendered": "Calcular",
+          "type": [Function],
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
