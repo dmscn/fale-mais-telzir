@@ -1,12 +1,12 @@
 // @flow
 import React, { Component } from 'react'
 
-export default class BottomNav extends Component {
-  render() {
-    return (
-      <div>
-        BottomNav
-      </div>
-    )
-  }
+import styles from './BottomNav.module.css';
+
+export default function BottomNav () {
+  return (
+    <section className={styles.Container}>
+      <span className={styles.Logo}>telzir&reg;</span>
+    </section>
+  );
 }

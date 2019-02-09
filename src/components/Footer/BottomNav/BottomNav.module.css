@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.Logo {
+  font-family: 'Righteous';
+  font-size: 1.5em;
+  color: white;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
