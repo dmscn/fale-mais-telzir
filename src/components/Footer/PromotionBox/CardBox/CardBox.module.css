@@ -1,0 +1,16 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 15vw;
+  margin: .5em;
+  transition: all .2s ease-in-out;
+}
+
+.Price {
+  font-weight: 400;
+  color: red;
+}

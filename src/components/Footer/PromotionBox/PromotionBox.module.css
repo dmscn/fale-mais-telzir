@@ -14,23 +14,12 @@
   margin-top: 2em;
 }
 
-.CardBox {
+.CardsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 15vw;
-  height: 15vw;
-  margin: .5em;
-  transition: all .2s ease-in-out;
-}
 
 .Card:hover {
   transform: scale(1.1);
