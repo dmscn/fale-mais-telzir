@@ -10,6 +10,17 @@
   transition: all .2s ease-in-out;
 }
 
+.Container:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.SpecialContainer {
+  width: 18vw;
+  height: 18vw;
+  border: .2em solid #DAA520;
+}
+
 .Price {
   font-weight: 400;
   color: red;

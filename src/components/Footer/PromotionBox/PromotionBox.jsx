@@ -17,7 +17,7 @@ export default class PromotionBox extends Component {
             price={30}
           />
           <CardBox
-            className={styles.SpecialCard}
+            variant="special"
             title="FaleMais"
             content="LASJndLASJKdnASLKJ"
             price={30}
