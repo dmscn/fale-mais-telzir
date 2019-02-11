@@ -2,7 +2,10 @@
 import React, { Component } from 'react'
 
 import styles from './PromotionBox.module.css';
+import plans from '../../../static/fale-mais-plans';
+
 import CardBox from './CardBox';
+
 
 export default class PromotionBox extends Component {
   render() {
@@ -11,22 +14,14 @@ export default class PromotionBox extends Component {
         <h3 className={styles.Header}>Escolha um de nossos planos</h3>
 
         <div className={styles.CardsContainer}>
-          <CardBox
-            title="FaleMais"
-            content="LASJndLASJKdnASLKJ"
-            price={30}
-          />
-          <CardBox
-            variant="special"
-            title="FaleMais"
-            content="LASJndLASJKdnASLKJ"
-            price={30}
-          />
-          <CardBox
-            title="FaleMais"
-            content="LASJndLASJKdnASLKJ"
-            price={30}
-          />
+          {plans.map(plan => (
+            <CardBox
+              destac={plan.name === 'FaleMais 60'}
+              descount={plan.descountMin}
+              title={plan.name}
+              price={plan.descountMin}
+            />
+          ))}
         </div>
       </section>
     );
