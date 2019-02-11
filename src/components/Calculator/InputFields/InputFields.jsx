@@ -109,6 +109,7 @@ export default class InputFields extends Component<null, State> {
             placeholder="Tempo de ligação em minutos"
             value={this.state.time}
             onChange={this.handleChange("time")}
+            onFocus={(event) => event.target.select()}
             InputLabelProps={{
               shrink: true,
             }}
