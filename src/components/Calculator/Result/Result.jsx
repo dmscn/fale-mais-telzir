@@ -5,9 +5,12 @@ import Card from "@material-ui/core/Card";
 import Icon from "@material-ui/core/Icon";
 
 import styles from './Result.module.css';
-
+type ResultType = {
+  commonPrice: string,
+  promotionPrice: string
+}
 export type Props = {
-  result: any
+  result: ResultType,
 }
 
 export default class Result extends Component<Props> {

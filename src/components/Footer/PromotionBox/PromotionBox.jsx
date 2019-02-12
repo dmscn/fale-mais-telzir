@@ -16,6 +16,7 @@ export default class PromotionBox extends Component {
         <div className={styles.CardsContainer}>
           {plans.map(plan => (
             <CardBox
+              key={plan.name}
               destac={plan.name === 'FaleMais 60'}
               descount={plan.descountMin}
               title={plan.name}

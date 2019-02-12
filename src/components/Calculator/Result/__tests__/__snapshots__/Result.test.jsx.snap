@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Result /> should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Result
+    result={
+      Object {
+        "commonPrice": 120,
+        "promotionPrice": 45,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Card)
+          className="Card"
+        >
+          <h3>
+            Preço normal
+          </h3>
+          <p>
+            R$ 
+            <span
+              className="Price"
+            >
+              120
+            </span>
+          </p>
+          <WithStyles(Icon)
+            style={
+              Object {
+                "color": "#B00020",
+                "fontSize": "2em",
+              }
+            }
+          >
+            thumb_down
+          </WithStyles(Icon)>
+        </WithStyles(Card)>,
+        <WithStyles(Card)
+          className="Card FaleMaisCard"
+        >
+          <h3>
+            Preço com FaleMais
+          </h3>
+          <p>
+            R$ 
+            <span
+              className="Price"
+            >
+              45
+            </span>
+          </p>
+          <WithStyles(Icon)
+            style={
+              Object {
+                "color": "#4CAF50",
+                "fontSize": "2em",
+              }
+            }
+          >
+            thumb_up
+          </WithStyles(Icon)>
+        </WithStyles(Card)>,
+      ],
+      "className": "Container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Preço normal
+            </h3>,
+            <p>
+              R$ 
+              <span
+                className="Price"
+              >
+                120
+              </span>
+            </p>,
+            <WithStyles(Icon)
+              style={
+                Object {
+                  "color": "#B00020",
+                  "fontSize": "2em",
+                }
+              }
+            >
+              thumb_down
+            </WithStyles(Icon)>,
+          ],
+          "className": "Card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preço normal",
+            },
+            "ref": null,
+            "rendered": "Preço normal",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "R$ ",
+                <span
+                  className="Price"
+                >
+                  120
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "R$ ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "120",
+                  "className": "Price",
+                },
+                "ref": null,
+                "rendered": "120",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "thumb_down",
+              "style": Object {
+                "color": "#B00020",
+                "fontSize": "2em",
+              },
+            },
+            "ref": null,
+            "rendered": "thumb_down",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Preço com FaleMais
+            </h3>,
+            <p>
+              R$ 
+              <span
+                className="Price"
+              >
+                45
+              </span>
+            </p>,
+            <WithStyles(Icon)
+              style={
+                Object {
+                  "color": "#4CAF50",
+                  "fontSize": "2em",
+                }
+              }
+            >
+              thumb_up
+            </WithStyles(Icon)>,
+          ],
+          "className": "Card FaleMaisCard",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Preço com FaleMais",
+            },
+            "ref": null,
+            "rendered": "Preço com FaleMais",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "R$ ",
+                <span
+                  className="Price"
+                >
+                  45
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "R$ ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "45",
+                  "className": "Price",
+                },
+                "ref": null,
+                "rendered": "45",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "thumb_up",
+              "style": Object {
+                "color": "#4CAF50",
+                "fontSize": "2em",
+              },
+            },
+            "ref": null,
+            "rendered": "thumb_up",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Card)
+            className="Card"
+          >
+            <h3>
+              Preço normal
+            </h3>
+            <p>
+              R$ 
+              <span
+                className="Price"
+              >
+                120
+              </span>
+            </p>
+            <WithStyles(Icon)
+              style={
+                Object {
+                  "color": "#B00020",
+                  "fontSize": "2em",
+                }
+              }
+            >
+              thumb_down
+            </WithStyles(Icon)>
+          </WithStyles(Card)>,
+          <WithStyles(Card)
+            className="Card FaleMaisCard"
+          >
+            <h3>
+              Preço com FaleMais
+            </h3>
+            <p>
+              R$ 
+              <span
+                className="Price"
+              >
+                45
+              </span>
+            </p>
+            <WithStyles(Icon)
+              style={
+                Object {
+                  "color": "#4CAF50",
+                  "fontSize": "2em",
+                }
+              }
+            >
+              thumb_up
+            </WithStyles(Icon)>
+          </WithStyles(Card)>,
+        ],
+        "className": "Container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Preço normal
+              </h3>,
+              <p>
+                R$ 
+                <span
+                  className="Price"
+                >
+                  120
+                </span>
+              </p>,
+              <WithStyles(Icon)
+                style={
+                  Object {
+                    "color": "#B00020",
+                    "fontSize": "2em",
+                  }
+                }
+              >
+                thumb_down
+              </WithStyles(Icon)>,
+            ],
+            "className": "Card",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preço normal",
+              },
+              "ref": null,
+              "rendered": "Preço normal",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "R$ ",
+                  <span
+                    className="Price"
+                  >
+                    120
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "R$ ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "120",
+                    "className": "Price",
+                  },
+                  "ref": null,
+                  "rendered": "120",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "thumb_down",
+                "style": Object {
+                  "color": "#B00020",
+                  "fontSize": "2em",
+                },
+              },
+              "ref": null,
+              "rendered": "thumb_down",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Preço com FaleMais
+              </h3>,
+              <p>
+                R$ 
+                <span
+                  className="Price"
+                >
+                  45
+                </span>
+              </p>,
+              <WithStyles(Icon)
+                style={
+                  Object {
+                    "color": "#4CAF50",
+                    "fontSize": "2em",
+                  }
+                }
+              >
+                thumb_up
+              </WithStyles(Icon)>,
+            ],
+            "className": "Card FaleMaisCard",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Preço com FaleMais",
+              },
+              "ref": null,
+              "rendered": "Preço com FaleMais",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "R$ ",
+                  <span
+                    className="Price"
+                  >
+                    45
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "R$ ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "45",
+                    "className": "Price",
+                  },
+                  "ref": null,
+                  "rendered": "45",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "thumb_up",
+                "style": Object {
+                  "color": "#4CAF50",
+                  "fontSize": "2em",
+                },
+              },
+              "ref": null,
+              "rendered": "thumb_up",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

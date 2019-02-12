@@ -3,7 +3,13 @@ import Result from '../Result';
 
 describe('<Result />', () => {
   it('should render', () => {
-    const wrapper = shallow(<Result />);
+    const mockedResultProp = {
+      commonPrice: 120,
+      promotionPrice: 45
+    };
+
+    const wrapper = shallow(<Result result={mockedResultProp}/>);
+    
     expect(wrapper).toMatchSnapshot();
   });
 });

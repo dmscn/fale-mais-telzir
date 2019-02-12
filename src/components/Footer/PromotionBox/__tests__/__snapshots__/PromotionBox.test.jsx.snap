@@ -18,11 +18,127 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "PromotionBox",
+      "children": Array [
+        <h3
+          className="Header"
+        >
+          Escolha um de nossos planos
+        </h3>,
+        <div
+          className="CardsContainer"
+        >
+          <CardBox
+            descount={30}
+            destac={false}
+            price={30}
+            title="FaleMais 30"
+          />
+          <CardBox
+            descount={60}
+            destac={true}
+            price={60}
+            title="FaleMais 60"
+          />
+          <CardBox
+            descount={120}
+            destac={false}
+            price={120}
+            title="FaleMais 120"
+          />
+        </div>,
+      ],
+      "className": "Container",
     },
     "ref": null,
-    "rendered": "PromotionBox",
-    "type": "div",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Escolha um de nossos planos",
+          "className": "Header",
+        },
+        "ref": null,
+        "rendered": "Escolha um de nossos planos",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <CardBox
+              descount={30}
+              destac={false}
+              price={30}
+              title="FaleMais 30"
+            />,
+            <CardBox
+              descount={60}
+              destac={true}
+              price={60}
+              title="FaleMais 60"
+            />,
+            <CardBox
+              descount={120}
+              destac={false}
+              price={120}
+              title="FaleMais 120"
+            />,
+          ],
+          "className": "CardsContainer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "FaleMais 30",
+            "nodeType": "class",
+            "props": Object {
+              "descount": 30,
+              "destac": false,
+              "price": 30,
+              "title": "FaleMais 30",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "FaleMais 60",
+            "nodeType": "class",
+            "props": Object {
+              "descount": 60,
+              "destac": true,
+              "price": 60,
+              "title": "FaleMais 60",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "FaleMais 120",
+            "nodeType": "class",
+            "props": Object {
+              "descount": 120,
+              "destac": false,
+              "price": 120,
+              "title": "FaleMais 120",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "section",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -30,11 +146,127 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "PromotionBox",
+        "children": Array [
+          <h3
+            className="Header"
+          >
+            Escolha um de nossos planos
+          </h3>,
+          <div
+            className="CardsContainer"
+          >
+            <CardBox
+              descount={30}
+              destac={false}
+              price={30}
+              title="FaleMais 30"
+            />
+            <CardBox
+              descount={60}
+              destac={true}
+              price={60}
+              title="FaleMais 60"
+            />
+            <CardBox
+              descount={120}
+              destac={false}
+              price={120}
+              title="FaleMais 120"
+            />
+          </div>,
+        ],
+        "className": "Container",
       },
       "ref": null,
-      "rendered": "PromotionBox",
-      "type": "div",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Escolha um de nossos planos",
+            "className": "Header",
+          },
+          "ref": null,
+          "rendered": "Escolha um de nossos planos",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <CardBox
+                descount={30}
+                destac={false}
+                price={30}
+                title="FaleMais 30"
+              />,
+              <CardBox
+                descount={60}
+                destac={true}
+                price={60}
+                title="FaleMais 60"
+              />,
+              <CardBox
+                descount={120}
+                destac={false}
+                price={120}
+                title="FaleMais 120"
+              />,
+            ],
+            "className": "CardsContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "FaleMais 30",
+              "nodeType": "class",
+              "props": Object {
+                "descount": 30,
+                "destac": false,
+                "price": 30,
+                "title": "FaleMais 30",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "FaleMais 60",
+              "nodeType": "class",
+              "props": Object {
+                "descount": 60,
+                "destac": true,
+                "price": 60,
+                "title": "FaleMais 60",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "FaleMais 120",
+              "nodeType": "class",
+              "props": Object {
+                "descount": 120,
+                "destac": false,
+                "price": 120,
+                "title": "FaleMais 120",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
     },
   ],
   Symbol(enzyme.__options__): Object {

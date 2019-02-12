@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import Button from '@material-ui/core/Button';
 
-import plans from '../../../static/fale-mais-plans'
+import plans from '../../../static/fale-mais-plans';
 import taxes from '../../../static/taxes';
 
 import styles from './InputFields.module.css';

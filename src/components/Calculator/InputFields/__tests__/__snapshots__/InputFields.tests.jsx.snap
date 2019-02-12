@@ -100,6 +100,7 @@ ShallowWrapper {
             className="Input"
             label="Tempo"
             onChange={[Function]}
+            onFocus={[Function]}
             placeholder="Tempo de ligação em minutos"
             required={true}
             type="number"
@@ -232,6 +233,7 @@ ShallowWrapper {
               className="Input"
               label="Tempo"
               onChange={[Function]}
+              onFocus={[Function]}
               placeholder="Tempo de ligação em minutos"
               required={true}
               type="number"
@@ -464,6 +466,7 @@ ShallowWrapper {
               "helperText": undefined,
               "label": "Tempo",
               "onChange": [Function],
+              "onFocus": [Function],
               "placeholder": "Tempo de ligação em minutos",
               "required": true,
               "type": "number",
@@ -654,6 +657,7 @@ ShallowWrapper {
               className="Input"
               label="Tempo"
               onChange={[Function]}
+              onFocus={[Function]}
               placeholder="Tempo de ligação em minutos"
               required={true}
               type="number"
@@ -786,6 +790,7 @@ ShallowWrapper {
                 className="Input"
                 label="Tempo"
                 onChange={[Function]}
+                onFocus={[Function]}
                 placeholder="Tempo de ligação em minutos"
                 required={true}
                 type="number"
@@ -1018,6 +1023,7 @@ ShallowWrapper {
                 "helperText": undefined,
                 "label": "Tempo",
                 "onChange": [Function],
+                "onFocus": [Function],
                 "placeholder": "Tempo de ligação em minutos",
                 "required": true,
                 "type": "number",
